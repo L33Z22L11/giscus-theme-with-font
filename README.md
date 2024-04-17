@@ -37,9 +37,9 @@ https://cdn.jsdelivr.net/gh/L33Z22L11/giscus-theme/harmonyos-sans.css
 
 ## Usage / 使用方法
 
-If your Hexo theme supports Giscus, you can configure Giscus with a font theme using a configuration similar to the following:
+If your Hexo theme (e.g. [Stellar](https://github.com/xaoxuu/hexo-theme-stellar)) supports Giscus, you can configure Giscus with a font theme using a configuration similar to the following:
 
-如果您的 Hexo 主题支持 Giscus，则可以使用类似以下配置的方式配置 Giscus 的字体主题：
+如果您的 Hexo 主题（如 [Stellar](https://github.com/xaoxuu/hexo-theme-stellar)）支持 Giscus，则可以使用类似以下配置的方式配置 Giscus 的字体主题：
 
 ```yaml
 comments:
@@ -50,9 +50,9 @@ comments:
     data-theme: https://cdn.jsdelivr.net/gh/L33Z22L11/giscus-theme/lxgw-wenkai.css
 ```
 
-You should also add the following JavaScript code to your web page:
+Otherwise, add the following JavaScript code to your web page:
 
-您还应将以下 JavaScript 代码添加到您的网页中：
+否则，将以下 JavaScript 代码添加到您的网页中：
 
 ```html
 <script src="https://giscus.app/client.js"
